@@ -7,7 +7,7 @@
     "last 2 Chrome versions"
   ],
   "scripts": {
-    "format": "pretier --write \"src/**/*.{js,jsx}\"",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "dev": "parcel src/index.html"
   },
